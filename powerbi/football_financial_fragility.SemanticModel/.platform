@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "football_financial_fragility"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "965cbd0d-4aad-4caa-a850-349a9f3bd6dd"
+  }
+}

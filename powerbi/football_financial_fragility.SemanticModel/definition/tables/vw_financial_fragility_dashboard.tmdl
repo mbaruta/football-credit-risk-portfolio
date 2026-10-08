@@ -1,0 +1,314 @@
+table vw_financial_fragility_dashboard
+	lineageTag: 29255dfb-1388-4014-afa4-e7d167577709
+
+	measure 'Median Fragility Score' = MEDIAN(vw_financial_fragility_dashboard[financial_fragility_score])
+		lineageTag: be0b7154-9e92-4a35-a026-82b04167b7d9
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Median Current Liquidity' = MEDIAN(vw_financial_fragility_dashboard[current_liquidity])
+		lineageTag: 682342e9-16f1-4a0b-9857-b19b87eabcd8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Median Liability Ratio' = MEDIAN(vw_financial_fragility_dashboard[liability_ratio])
+		lineageTag: 7efa13e6-c400-4a65-8208-d375aff13d17
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Median ROA' = MEDIAN(vw_financial_fragility_dashboard[return_on_assets])
+		lineageTag: 0e1b5f78-3edd-4944-bcae-7f1b91af9413
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Negative Equity Share' = ```
+			DIVIDE(CALCULATE(
+			        COUNTROWS(vw_financial_fragility_dashboard), 
+			        vw_financial_fragility_dashboard[negative_equity] = TRUE()), 
+			    COUNTROWS(vw_financial_fragility_dashboard))
+			```
+		formatString: 0%;-0%;0%
+		lineageTag: 034adba3-a623-4bcb-9d1d-d1d602e19668
+
+	measure 'Median Liquidity Risk' = MEDIAN(vw_financial_fragility_dashboard[liquidity_risk])
+		lineageTag: 06d22369-6358-4177-965d-65a9cb03c904
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Median Solvency Risk' = MEDIAN(vw_financial_fragility_dashboard[solvency_risk])
+		lineageTag: e63c2c42-fdf6-40bf-a8a2-248c0345ab20
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Median Profitability Risk' = MEDIAN(vw_financial_fragility_dashboard[profitability_risk])
+		lineageTag: 30c922be-7bd5-4f37-a65c-651c08a343de
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Negative Equity Status' =
+			
+			IF(
+			    ISBLANK(SELECTEDVALUE(vw_financial_fragility_dashboard[negative_equity])),
+			    BLANK(),
+			    IF(
+			        SELECTEDVALUE(vw_financial_fragility_dashboard[negative_equity]),
+			        "Yes",
+			        "No"
+			    )
+			)
+		lineageTag: 8859b6e6-df32-431e-b98a-b3cadd4d9b9d
+
+	measure 'Year Median Fragility Score' =
+			
+			CALCULATE(
+			    MEDIAN(vw_financial_fragility_dashboard[financial_fragility_score]),
+			    REMOVEFILTERS(vw_financial_fragility_dashboard[club])
+			)
+		lineageTag: 895fdf12-e837-4f4e-b6dc-86b90bb396fb
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Difference vs Year Median' =
+			
+			SELECTEDVALUE(
+			    vw_financial_fragility_dashboard[financial_fragility_score]
+			)
+			-
+			[Year Median Fragility Score]
+		lineageTag: cc8ce8bf-6c21-4677-93d7-eabdcdb0ca3b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Low Liquidity Share' =
+			
+			DIVIDE(
+			    CALCULATE(
+			        COUNTROWS(vw_financial_fragility_dashboard),
+			        vw_financial_fragility_dashboard[current_liquidity] < 1
+			    ),
+			    COUNTROWS(vw_financial_fragility_dashboard)
+			)
+		formatString: 0%;-0%;0%
+		lineageTag: 9273b8ba-a848-45d2-9838-6329a547a9ab
+
+	measure 'Loss Share' =
+			
+			DIVIDE(
+			    CALCULATE(
+			        COUNTROWS(vw_financial_fragility_dashboard),
+			        vw_financial_fragility_dashboard[net_result] < 0
+			    ),
+			    COUNTROWS(vw_financial_fragility_dashboard)
+			)
+		formatString: 0%;-0%;0%
+		lineageTag: dc47bbd8-daec-4a61-9d02-c8171f3024cd
+
+	column club
+		dataType: string
+		lineageTag: 7694c70e-401d-4efd-9e8d-7fd7c90141b9
+		summarizeBy: none
+		sourceColumn: club
+
+		annotation SummarizationSetBy = Automatic
+
+	column fiscal_year
+		dataType: int64
+		formatString: 0
+		lineageTag: d85ea18e-d7f6-40b0-b0bb-cc9835f80e56
+		summarizeBy: count
+		sourceColumn: fiscal_year
+
+		annotation SummarizationSetBy = User
+
+	column cash
+		dataType: double
+		lineageTag: 6263adb7-06b4-4e5e-a956-d1789b0f9d69
+		summarizeBy: sum
+		sourceColumn: cash
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column current_assets
+		dataType: double
+		lineageTag: ced691ad-75a5-4bb9-be0c-c2f7b020d5de
+		summarizeBy: sum
+		sourceColumn: current_assets
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_assets
+		dataType: double
+		lineageTag: 789917a9-9b81-49aa-b9c5-d89e8083c271
+		summarizeBy: sum
+		sourceColumn: total_assets
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column current_liabilities
+		dataType: double
+		lineageTag: 5aed7480-0864-4793-b1e2-3d8420c55137
+		summarizeBy: sum
+		sourceColumn: current_liabilities
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_liabilities
+		dataType: double
+		lineageTag: 21105fa8-2968-48bd-b307-6d50e4ab853b
+		summarizeBy: sum
+		sourceColumn: total_liabilities
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column equity
+		dataType: double
+		lineageTag: 050b9457-37ec-4e07-bb51-9724181634fa
+		summarizeBy: sum
+		sourceColumn: equity
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column net_result
+		dataType: double
+		lineageTag: d5f52527-1c56-4377-81b6-46855251f842
+		summarizeBy: sum
+		sourceColumn: net_result
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column current_liquidity
+		dataType: double
+		lineageTag: bc902f4e-e6c2-4513-bfed-899271b28c42
+		summarizeBy: average
+		sourceColumn: current_liquidity
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column liability_ratio
+		dataType: double
+		lineageTag: 741e2bf9-4e31-40d0-96fc-6b060690cf3a
+		summarizeBy: average
+		sourceColumn: liability_ratio
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column return_on_assets
+		dataType: double
+		lineageTag: d8f2cdab-c6cf-438e-9098-d23e2d66f632
+		summarizeBy: sum
+		sourceColumn: return_on_assets
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column negative_equity
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 3a408fc4-de27-41bb-ae5c-ee582c18a791
+		summarizeBy: none
+		sourceColumn: negative_equity
+
+		annotation SummarizationSetBy = Automatic
+
+	column liquidity_risk
+		dataType: double
+		lineageTag: ce2c2b3e-5ae1-4bac-be10-1299f3aa1705
+		summarizeBy: sum
+		sourceColumn: liquidity_risk
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column solvency_risk
+		dataType: double
+		lineageTag: 3dfda893-6d8a-4a08-bd7c-9fdc7e4548f9
+		summarizeBy: sum
+		sourceColumn: solvency_risk
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column profitability_risk
+		dataType: double
+		lineageTag: e000a28c-bf9a-46ff-bcc2-ccad3c3a5ae2
+		summarizeBy: sum
+		sourceColumn: profitability_risk
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column financial_fragility_score
+		dataType: double
+		lineageTag: f215eb14-d849-4ea6-8018-0df6a6568edc
+		summarizeBy: sum
+		sourceColumn: financial_fragility_score
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column previous_loss_rate
+		dataType: double
+		formatString: 0%;-0%;0%
+		lineageTag: 06187e05-de0a-4658-9eb9-bbf8c6947f07
+		summarizeBy: sum
+		sourceColumn: previous_loss_rate
+
+		annotation SummarizationSetBy = Automatic
+
+	column previous_fragility_score
+		dataType: double
+		lineageTag: 6331f8b3-d2ba-43c6-894d-9b94565bdd14
+		summarizeBy: sum
+		sourceColumn: previous_fragility_score
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column fragility_score_change
+		dataType: double
+		lineageTag: 766f8001-2d4a-480c-9d6a-f9dca1c4b321
+		summarizeBy: sum
+		sourceColumn: fragility_score_change
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition vw_financial_fragility_dashboard = m
+		mode: import
+		source =
+				let
+				    Fonte = Sql.Database("localhost\SQLEXPRESS", "football_credit_risk"),
+				    dbo_vw_financial_fragility_dashboard = Fonte{[Schema="dbo",Item="vw_financial_fragility_dashboard"]}[Data],
+				    #"Set fiscal_year as Whole Number" = Table.TransformColumnTypes(dbo_vw_financial_fragility_dashboard,{{"fiscal_year", Int64.Type}})
+				in
+				    #"Set fiscal_year as Whole Number"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

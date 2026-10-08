@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "b82a450558e9d021aadf",
+  "displayName": "Club Detail",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F5F7F5'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "30c428edad927cf83933",
+      "target": "e7ad1aaf31e510d583cc",
+      "type": "NoFilter"
+    },
+    {
+      "source": "30c428edad927cf83933",
+      "target": "96498ed240aac23d6d2d",
+      "type": "NoFilter"
+    },
+    {
+      "source": "30c428edad927cf83933",
+      "target": "571539b984d8adf336f9",
+      "type": "NoFilter"
+    }
+  ]
+}

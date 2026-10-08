@@ -1,0 +1,5166 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "vw_financial_fragility_dashboard": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vw financial fragility dashboard": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vw_financial_fragility_dashboard": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "vw financial fragility console": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "vw financial fragility dash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.club": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "club"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "club": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "association": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "nightclub": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "alliance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "guild": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "team": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "union": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.fiscal_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "fiscal_year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fiscal year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fiscal_year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "fiscal yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "fisc year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "accounting year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "budget year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "fiscal date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "fiscal day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "tax year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "vw_financial_fragility_dashboard.cash": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "cash"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cash": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "money": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "currency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dough": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "coin": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "note": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.current_asset": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "current_assets"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "current asset": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "current_assets": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "asset": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "latest asset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "contemporary asset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "present asset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "current strength": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "current skill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "current talent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "current ability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "current qualification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "current endowment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "strength": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "Current Assets": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.total_asset": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "total_assets"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total asset": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total_assets": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "asset": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate asset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall asset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total strength": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total skill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total talent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total ability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total qualification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total endowment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "strength": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "skill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "Total Assets": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.current_liability": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "current_liabilities"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "current liability": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "current_liabilities": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "liability": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "latest liability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "contemporary liability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "present liability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "current obligation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "current accountability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "current responsibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "obligation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "accountability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "responsibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "current charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "Current Liabilities": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.total_liability": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "total_liabilities"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total liability": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total_liabilities": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "liability": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate liability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall liability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total obligation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total accountability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total responsibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "obligation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "accountability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "responsibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "total charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Total Liabilities": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.equity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "equity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "equity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "evenhandedness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fairness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "impartiality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "justness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "parity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "justice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.net_result": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "net_result"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "net result": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "net_result": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "result": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "net consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "net outcome": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "net upshot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "net product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "outcome": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "upshot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "net effect": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "net end": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.current_liquidity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "current_liquidity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "current liquidity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "current_liquidity": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "liquidity": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "latest liquidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "contemporary liquidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "present liquidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "current liquidness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "current wateriness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "current fluidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "current fluidness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "current runniness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "current liquescence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "current liquescency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.liability_ratio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "liability_ratio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "liability ratio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "liability_ratio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "liability relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "liability percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "liability quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "liability relationship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "relationship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "liability proportion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "liability share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "liability fraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.return_on_assets": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "return_on_assets"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "return on assets": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "return on asset": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "return_on_assets": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "return": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "reappearance on asset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "reoccurrence on asset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "homecoming on asset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "arrival on asset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "reappearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "reoccurrence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "homecoming": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "arrival": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "revenue on asset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "profit on asset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.negative_equity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "negative_equity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "negative equity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "negative_equity": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "negative evenhandedness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "negative fairness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "negative impartiality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "negative justness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "negative parity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "negative justice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.liquidity_risk": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "liquidity_risk"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "liquidity risk": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "liquidity_risk": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "risk": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "liquidity danger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "liquidity jeopardy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "danger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "jeopardy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "liquidity peril": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "liquidity hazard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "liquidity menace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "liquidity threat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "peril": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "hazard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.solvency_risk": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "solvency_risk"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "solvency risk": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "solvency_risk": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "risk": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "solvency danger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "solvency jeopardy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "danger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "jeopardy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "solvency peril": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "solvency hazard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "solvency menace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "solvency threat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "peril": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "hazard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.profitability_risk": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "profitability_risk"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "profitability risk": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "profitability_risk": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "risk": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "profitability danger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "profitability jeopardy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "danger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "jeopardy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "profitability peril": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "profitability hazard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "profitability menace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "profitability threat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "peril": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "hazard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.financial_fragility_score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "financial_fragility_score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "financial fragility score": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "financial_fragility_score": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fragility score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "financial fragility notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "financial fragility slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "financial fragility groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "financial fragility nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "financial fragility cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "financial fragility mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "fragility notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fragility slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fragility groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fragility nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.previous_loss_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "previous_loss_rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "previous loss rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "previous_loss_rate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "loss rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "previous loss degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "previous loss frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "previous loss percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "previous loss ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "previous loss quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "loss degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "loss frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "loss percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "loss ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "loss quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.previous_fragility_score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "previous_fragility_score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "previous fragility score": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "previous_fragility_score": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fragility score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "previous fragility notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "previous fragility slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "previous fragility groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "previous fragility nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "previous fragility cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "previous fragility mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "fragility notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fragility slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fragility groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fragility nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.fragility_score_change": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "fragility_score_change"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fragility score change": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fragility_score_change": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "change": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "score change": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fragility score alteration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fragility score modification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fragility score variation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fragility score transformation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fragility score revolution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fragility score conversion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fragility score adjustment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fragility score amendment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "score alteration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "score modification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.median_fragility_score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "Median Fragility Score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "median fragility score": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fragility score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "median fragility notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median fragility slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median fragility groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median fragility nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median fragility cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median fragility mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "fragility notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fragility slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fragility groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fragility nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.median_current_liquidity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "Median Current Liquidity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "median current liquidity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "liquidity": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "median latest liquidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "median contemporary liquidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "median present liquidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "median current liquidness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median current wateriness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median current fluidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median current fluidness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median current runniness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median current liquescence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median current liquescency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "Current Liquidity": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.median_liability_ratio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "Median Liability Ratio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "median liability ratio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "median liability relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median liability percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median liability quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median liability relationship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median liability proportion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median liability share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median liability fraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median liability part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "Liability Ratio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.median_ROA": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "Median ROA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "median ROA": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ROA": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.negative_equity_share": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "Negative Equity Share"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "negative equity share": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "share": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "equity share": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "negative equity part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "negative equity portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "negative equity segment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "negative equity cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "negative equity stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "negative equity bit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "negative equity piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "equity part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "equity portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "equity segment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "Negative Equity": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.median_liquidity_risk": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "Median Liquidity Risk"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "median liquidity risk": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "risk": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "median liquidity danger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median liquidity jeopardy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median liquidity peril": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median liquidity hazard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median liquidity menace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median liquidity threat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "danger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "jeopardy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "median liquidity possibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "median liquidity probability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "Liquidity Risk": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.median_solvency_risk": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "Median Solvency Risk"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "median solvency risk": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "risk": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "median solvency danger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median solvency jeopardy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median solvency peril": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median solvency hazard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median solvency menace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median solvency threat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "danger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "jeopardy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "median solvency possibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "median solvency probability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "Solvency Risk": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.median_profitability_risk": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "Median Profitability Risk"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "median profitability risk": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "risk": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "median profitability danger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median profitability jeopardy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "median profitability peril": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median profitability hazard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median profitability menace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "median profitability threat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "danger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "jeopardy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "median profitability possibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "median profitability probability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "Profitability Risk": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.negative_equity_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "Negative Equity Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "negative equity status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "status": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "equity status": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "negative equity category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "negative equity importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "negative equity prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "negative equity prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "equity category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "equity importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "equity prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "equity prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "negative equity condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "negative equity class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.year_median_fragility_score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "Year Median Fragility Score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year median fragility score": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fragility score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "yr median fragility score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "year median fragility notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "year median fragility slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "year median fragility groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "year median fragility nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "year median fragility cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "year median fragility mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "fragility notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fragility slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fragility groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "Year Median": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.difference_vs_year_median": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "Difference vs Year Median"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "difference vs year median": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "difference vs yr median": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "difference vs year norm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "difference vs year nucleus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "difference vs year midpoint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "difference vs year middle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "difference vs year center": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "difference vs year medium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "difference vs year mean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "difference vs year average": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "difference vs year par": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.low_liquidity_share": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "Low Liquidity Share"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "low liquidity share": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "share": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "liquidity share": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "low liquidity part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "low liquidity portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "low liquidity segment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "low liquidity cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "low liquidity stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "low liquidity bit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "low liquidity piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "liquidity part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "liquidity portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "liquidity segment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "Low Liquidity": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard.loss_share": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_financial_fragility_dashboard",
+			          "ConceptualProperty": "Loss Share"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "loss share": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "share": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "loss part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "loss portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "loss segment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "loss cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "loss stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "loss bit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "loss piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "segment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Loss": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "vw_financial_fragility_dashboard_has_loss_share": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.loss_share": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.loss_share"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.loss_share"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_loss_share"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_low_liquidity_share": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.low_liquidity_share": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.low_liquidity_share"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.low_liquidity_share"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_low_liquidity_share"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_difference_vs_year_median": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.difference_vs_year_median": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.difference_vs_year_median"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.difference_vs_year_median"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_difference_vs_year_median"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_year_median_fragility_score": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.year_median_fragility_score": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.year_median_fragility_score"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.year_median_fragility_score"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_year_median_fragility_score"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_negative_equity_status": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.negative_equity_status": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.negative_equity_status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.negative_equity_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_negative_equity_status"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_median_profitability_risk": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.median_profitability_risk": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.median_profitability_risk"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.median_profitability_risk"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_median_profitability_risk"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_median_solvency_risk": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.median_solvency_risk": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.median_solvency_risk"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.median_solvency_risk"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_median_solvency_risk"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_median_liquidity_risk": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.median_liquidity_risk": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.median_liquidity_risk"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.median_liquidity_risk"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_median_liquidity_risk"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_negative_equity_share": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.negative_equity_share": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.negative_equity_share"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.negative_equity_share"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_negative_equity_share"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_median_ROA": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.median_ROA": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.median_ROA"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.median_ROA"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_median_ROA"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_median_liability_ratio": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.median_liability_ratio": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.median_liability_ratio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.median_liability_ratio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_median_liability_ratio"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_median_current_liquidity": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.median_current_liquidity": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.median_current_liquidity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.median_current_liquidity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_median_current_liquidity"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_median_fragility_score": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.median_fragility_score": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.median_fragility_score"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.median_fragility_score"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_median_fragility_score"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_fragility_score_change": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.fragility_score_change": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.fragility_score_change"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.fragility_score_change"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_fragility_score_changes"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_previous_fragility_score": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.previous_fragility_score": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.previous_fragility_score"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.previous_fragility_score"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_previous_fragility_scores"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_previous_loss_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.previous_loss_rate": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.previous_loss_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.previous_loss_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_previous_loss_rates"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_financial_fragility_score": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.financial_fragility_score": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.financial_fragility_score"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.financial_fragility_score"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_financial_fragility_scores"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_profitability_risk": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.profitability_risk": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.profitability_risk"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.profitability_risk"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_profitability_risks"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_solvency_risk": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.solvency_risk": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.solvency_risk"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.solvency_risk"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_solvency_risks"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_liquidity_risk": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.liquidity_risk": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.liquidity_risk"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.liquidity_risk"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_liquidity_risks"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_negative_equity": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.negative_equity": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.negative_equity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.negative_equity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_negative_equities"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_return_on_assets": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.return_on_assets": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.return_on_assets"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.return_on_assets"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_return_on_assets"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_liability_ratio": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.liability_ratio": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.liability_ratio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.liability_ratio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_liability_ratios"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_current_liquidity": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.current_liquidity": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.current_liquidity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.current_liquidity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_current_liquidities"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_net_result": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.net_result": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.net_result"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.net_result"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_net_results"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_equity": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.equity": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.equity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.equity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_equities"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_total_liability": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.total_liability": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.total_liability"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.total_liability"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_total_liabilities"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_current_liability": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.current_liability": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.current_liability"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.current_liability"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_current_liabilities"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_total_asset": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.total_asset": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.total_asset"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.total_asset"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_total_assets"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_current_asset": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.current_asset": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.current_asset"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.current_asset"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_current_assets"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_cash": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.cash": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.cash"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.cash"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_cash"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_fiscal_year": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.fiscal_year": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.fiscal_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.fiscal_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_fiscal_years"
+			        }
+			      ]
+			    },
+			    "vw_financial_fragility_dashboard_has_club": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_financial_fragility_dashboard"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_financial_fragility_dashboard": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard"
+			          }
+			        },
+			        "vw_financial_fragility_dashboard.club": {
+			          "Target": {
+			            "Entity": "vw_financial_fragility_dashboard.club"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_financial_fragility_dashboard"
+			            },
+			            "Object": {
+			              "Role": "vw_financial_fragility_dashboard.club"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_financial_fragility_dashboards_have_clubs"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
